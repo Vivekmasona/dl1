@@ -1,0 +1,76 @@
+.container {
+  display: grid;
+  place-items: center;
+  padding-top: 5rem;
+}
+
+.search {
+  width: 70rem; // change
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .heading {
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(248, 126, 242);
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .input {
+    width: 55rem; // change
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+  }
+
+  .btn {
+    padding: 0.5rem 1.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: rgb(248, 126, 242);
+    color: rgb(29, 29, 29);
+    border: 1px solid rgb(248, 126, 242);
+    cursor: pointer;
+  }
+}
+
+.gif {
+  width: 70rem;
+  text-align: center;
+
+  img {
+    width: 50rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .search {
+    height: 40rem;
+    width: 100%;
+    padding: 0 2rem;
+
+    .input {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .gif {
+    width: 90%;
+    text-align: center;
+
+    img {
+      width: 100%;
+    }
+  }
+}

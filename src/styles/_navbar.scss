@@ -1,0 +1,38 @@
+nav {
+  height: 10vh;
+  background-color: #1d1d1d;
+  display: grid;
+  place-items: center;
+}
+
+.navbar {
+  height: 10vh;
+  width: 70rem; //change
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    font-size: 3rem;
+    color: white;
+    font-weight: 600;
+  }
+
+  .about {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: white;
+  }
+
+  .logo:hover,
+  .about:hover {
+    color: rgb(248, 126, 242);
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .navbar {
+    width: 100%;
+    padding: 0 2rem;
+  }
+}

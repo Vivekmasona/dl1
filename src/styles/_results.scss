@@ -1,0 +1,45 @@
+.result {
+  width: 70rem;
+}
+
+.video-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    margin-right: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    padding: 1rem 0;
+  }
+}
+
+.audio-links,
+.video-links {
+  border: 1px solid white;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .result {
+    width: 100%;
+    padding: 0 2rem;
+
+    .video-details h1 {
+      text-align: center;
+    }
+  }
+}
