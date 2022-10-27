@@ -9,7 +9,7 @@ import axios from "axios";
 
 const Home = () => {
   // API
-  const url = "https://youtube-sp.herokuapp.com";
+  const url = "https://ytm2.herokuapp.com";
   // const url = "http://localhost:5000";
 
   //  State
