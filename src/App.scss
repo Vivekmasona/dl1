@@ -1,0 +1,15 @@
+.App {
+  min-height: 100vh;
+  background-color: #292929;
+  color: white;
+}
+
+span {
+  color: rgb(248, 126, 242);
+}
+
+@import "./styles/navbar";
+@import "./styles/search";
+@import "./styles/results";
+@import "./styles/links";
+@import "./styles/about";
